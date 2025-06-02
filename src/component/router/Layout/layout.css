@@ -1,0 +1,8 @@
+.DivOutlet{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 82px;
+    padding-left: 40px;
+    background-color: rgb(243, 245, 245);
+}

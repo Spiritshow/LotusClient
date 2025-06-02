@@ -1,0 +1,115 @@
+.DivCompany{
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 120px;
+}
+
+.DivFirst{
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.DivText{
+    display: flex;
+    flex-direction: column;
+    width: 760px;
+}
+
+.MarginText{
+    margin-right: 40px;
+}
+
+.CompanyHeader{
+    line-height: 48px;
+    color: #3c3c3c;
+    font-size: 48px;
+    font-family: 'Ysabeau SC', Arial, sans-serif;
+    font-weight: 400;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+}
+
+.CompanyDitailFirst{
+    line-height: 38px;
+    color: #3c3c3c;
+    font-size: 24px;
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-weight: 400;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+}
+
+.DivImageFirst{
+    width: 360px;
+    height: 300px;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("https://optim.tildacdn.pro/tild3663-6563-4263-b063-306162323430/-/cover/720x600/center/center/-/format/webp/1064c752-7342-4593-9.png.webp");
+    border-top-right-radius: 120px;
+}
+
+.DivImageSecond{
+    width: 300px;
+    height: 218px;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-top-right-radius: 120px;
+    background-image: url("https://optim.tildacdn.pro/tild3765-3631-4630-a166-303636633932/-/cover/600x436/center/center/-/format/webp/729a3da8-23c6-4bd3-8.png.webp");
+}
+
+
+
+
+.CompanyPoint{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+
+.sercal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 42px;
+    min-width: 43px;
+    border-radius: 30px;
+    border-width: 4px;
+    border-style: solid;
+    border-color: rgb(250, 252, 250);
+    background-color: rgb(92, 223, 140);
+    z-index: 2;
+}
+
+.mixingsercal{
+    margin-left: -25px;
+    z-index: 1;
+}
+
+.Point{
+    line-height: 38px;
+    color: #ffffff;
+    font-size: 24px;
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-weight: 700;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+}
+
+.CompanyPointText{
+    line-height: 32px;
+    color: #3c3c3c;
+    font-size: 20px;
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-weight: 400;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+    margin-left: 20px;
+}

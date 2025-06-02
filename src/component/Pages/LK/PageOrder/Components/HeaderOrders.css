@@ -1,0 +1,62 @@
+.DivHeaderOrders{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    background-color: #ffffff;
+    border-color: #aaa9a9;
+    border-style:ridge;
+    border-width: 2px;
+    color: #000000;
+    height: 60px;
+    border-radius: 25px;
+    padding-left: 100px;
+    padding-right: 20px;
+}
+
+.DivDataOrder{
+    width: 120px;
+    margin-right: 160px;
+}
+
+.H4DataOrder{
+    margin: 0px;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Ysabeau SC', Arial, sans-serif;
+}
+
+.DivTerm{
+    width: 120px;
+    margin-right: 160px;
+}
+
+.H4Term{
+    margin: 0px;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Ysabeau SC', Arial, sans-serif;
+}
+
+.DivStep{
+    width: 80px;
+    margin-right: 120px;
+}
+
+.H4Step{
+    margin: 0px;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Ysabeau SC', Arial, sans-serif;
+}
+
+.DivTotal{
+    width: 120px;
+}
+
+.H4Total{
+    margin: 0px;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Ysabeau SC', Arial, sans-serif;
+}

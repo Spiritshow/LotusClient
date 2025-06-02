@@ -1,0 +1,93 @@
+.DivCardProdut{
+    display: flex;
+    flex-direction: column;
+    margin-right: 40px;
+    margin-top: 40px;
+}
+
+.DivBodyCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    width: 360px;
+    height: 348px;
+    background-color: #FFFFFF;
+    border-top-left-radius: 170px;
+    margin-bottom: 20px;
+}
+
+.ImageProduct{
+    
+}
+
+.CardText{
+    line-height: 25px;
+    color: #3c3c3c;
+    font-size: 18px;
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-weight: 400;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+}
+
+.DivButtonCreate{
+    display: flex;
+    flex-direction: row;
+    margin-top: -5px;
+}
+
+.buttonCreate{
+    width: 315px;
+    height: 58px;
+    color: #ffffff;
+    font-size: 16px;
+    font-family: 'Montserrat', Arial, sans-serif;
+    line-height: 1.4;
+    font-weight: 400;
+    border-width: 1px;
+    background-color: #5cde8c;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+}
+
+.buttonCreate:hover{
+    color: #5cde8c;
+    background-color: #ffffff;
+    border-color: #5cde8c;
+    border-width: 2px;
+}
+
+.outSercal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    min-height: 70px;
+    margin-left: -35px;
+    margin-top: -7px ;
+    background-color: #ffffff;
+    border-color: #5cde8c;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 35px;
+}
+
+.inSercal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 43px;
+    min-height: 43px;
+    background-color: #5cde8c;
+    border-radius: 26px;
+}
+
+.reversArrow{
+    width: 14px;
+    height: 14px;
+}

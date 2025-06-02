@@ -1,0 +1,8 @@
+.DivAccountPage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 210px;
+    width: 100vw;
+    background-color: #F9F6F6;
+}

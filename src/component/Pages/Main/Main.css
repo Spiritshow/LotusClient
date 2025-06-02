@@ -1,0 +1,4 @@
+.DivMain{
+    display: flex;
+    flex-direction: column;
+}

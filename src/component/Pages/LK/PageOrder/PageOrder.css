@@ -1,0 +1,42 @@
+.DivPageOrders{
+    display: flex;
+    flex-direction: column;
+    background-color: #F9F6F6;
+    height: 100vh;
+    width: 70vw;
+}
+
+.buttonAccCreateOrder{
+    width: 160px;
+    height: 40px;
+    border-radius: 25px;
+    background-color: #5cde8c;
+    border-color: #5cde8c;
+    color: #FFFFFF;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+}
+
+.buttonAccCreateOrder:hover{
+    background-color: #FFFFFF;
+    color: #5cde8c;
+}
+
+.DivListOrder{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #d1d1d1;
+    border-radius: 45px;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.255);
+    padding: 30px; 
+    height: 400px;
+    margin: 7px;
+}
+
+.H3EmptyOrders{
+    margin-top: 20px;
+    color: #7a7a7a;
+}

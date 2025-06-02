@@ -1,0 +1,133 @@
+.DivCreateOrder{
+    position: fixed;
+    display: flex;
+    top: 60px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 1200px;
+    height: 600px;
+    background-color: rgb(243, 245, 245);
+    z-index: 1001;
+    border-radius: 50px;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.3);
+  z-index: 1000;
+}
+
+.DivCreateCataloge{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 1200px;
+
+}
+
+.DivCardProduct{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    min-width: 350px;
+    height: 220px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border-top-left-radius: 120px;
+    overflow: hidden;
+    padding-bottom: 10px;
+}
+
+.ImageProductCreate{
+    width: auto;
+    height: 70%;
+    margin-bottom: 10px;
+    object-fit: contain;
+}
+
+.TextProductCreate{
+    margin: 0px;
+    margin-bottom: 10px;
+}
+
+.DivButtonsCount{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+}
+
+.DivFutterCreateOrder{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.DivCreateTerm{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-right: 150px;
+}
+
+.inputTerm{
+    margin-left: 10px;
+    height: 30px;
+}
+
+.Total{
+    width: 85px;
+    text-align: center;
+    margin-right: 100px;
+    background-color: #FFFFFF;
+    border-color: black;
+    border-width: 2px;
+    border-style: ridge;
+}
+
+.ButtonCreateOrder{
+    background-color: #5cde8c;
+    color: #FFFFFF;
+    border-radius: 50px;
+    width: 80px;
+    height: 40px;
+    border-color: #5cde8c;
+    border-width: 2px;
+
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+}
+
+.ButtonCreateOrder:hover{
+    color: #5cde8c;
+    background-color: #ffffff;
+    border-color: #5cde8c;
+    border-width: 2px;
+}
+
+.no-spinner::-webkit-outer-spin-button,
+.no-spinner::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.no-spinner {
+  -moz-appearance: textfield;
+}
+
+.errCount{
+    color: brown;
+    text-align: center;
+    margin: 0px;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,83 @@
+.DivSignup{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.253);
+    width: 540px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.DivInputCompany{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    margin-bottom: 20px; 
+}
+
+.textCompany{
+    margin: 0px;
+    margin-right: 10px;
+}
+
+.InputCompany{
+    width: 280px;
+    height: 30px;
+}
+
+.TextCreatePassword{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: left;
+    color: rgb(116, 116, 116);
+}
+
+.DivButton{
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: center;
+}
+
+.ButtonBackMain{
+    width: 100px;
+    height: 30px;
+    border-radius: 7px;
+    background-color: #F9F6F6;
+    border-color: #979393;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 14px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.253);
+    margin-right: 140px ;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+}
+
+.ButtonBackMain:hover{
+    background-color: #cacaca;
+}
+
+.ButtonAccept{
+    width: 160px;
+    height: 30px;
+    margin-top: 20px;
+    border-radius: 7px;
+    background-color: #5cde8c;
+    border-color: #5cde8c;
+    color: #FFFFFF;
+    margin-bottom: 14px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.253);
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+}
+
+.ButtonAccept:hover{
+    color: #5cde8c;
+    background-color: #ffffff;
+    border-color: #5cde8c;
+    border-width: 2px;
+}

@@ -1,0 +1,21 @@
+.DivCatalog{
+    width: 1200px;
+    margin-bottom: 120px;
+}
+
+.HeaderCatalogText{
+    line-height: 48px;
+    color: #3c3c3c;
+    font-size: 48px;
+    font-family: 'Ysabeau SC', Arial, sans-serif;
+    font-weight: 400;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+}
+
+.DivProduct{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}

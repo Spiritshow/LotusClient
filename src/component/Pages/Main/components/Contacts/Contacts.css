@@ -1,0 +1,72 @@
+.DivContacts{
+    width: 1200px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 120px;
+}
+
+.DivContactsText{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin-right: 0px;
+}
+
+.DivHeaderContacts{
+    line-height: 29px;
+    color: #3c3c3c;
+    font-size: 48px;
+    font-family: 'Ysabeau SC', Arial, sans-serif;
+    font-weight: 400;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+    margin-bottom: 40px;
+}
+
+.DivHeaderCompanyName{
+    line-height: 36px;
+    color: #3c3c3c;
+    font-size: 36px;
+    font-family: 'Ysabeau SC', Arial, sans-serif;
+    font-weight: 400;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+    margin-bottom: 40px;
+}
+
+.DivKey{
+    border-width: 0px;
+    line-height: 26px;
+    color: #3c3c3c;
+    font-size: 16px;
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-weight: 400;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+}
+
+.DivValues{
+    border-width: 0px;
+    line-height: 29px;
+    color: #3c3c3c;
+    font-size: 18px;
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-weight: 400;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+    margin-bottom: 20px;
+}
+
+.ImageMap{
+
+}
+
+.ImagePoint{
+    width: 660px;
+    height: 435px;
+    border-top-left-radius: 120px;
+}

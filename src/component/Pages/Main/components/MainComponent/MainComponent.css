@@ -1,0 +1,130 @@
+.DivMainComponent{
+    display: flex;
+    flex-direction: row;
+    width: 1200px;
+    margin-left: -80px;
+    margin-top: 60px;
+    margin-bottom: 120px;
+}
+
+.DivImageBoxOne{
+
+}
+
+.ImageBoxOne{
+    z-index: 2;
+    
+}
+
+.DivDescription{
+    display: flex;
+    flex-direction: column;
+}
+
+.HeaderTextDescription{
+    margin-left: -100px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    line-height: 50px;
+    vertical-align: middle;
+    color: #3c3c3c;
+    font-size: 50px;
+    font-family: 'Ysabeau SC', Arial, sans-serif;
+    font-weight: 400;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+}
+
+.DivDetail{
+    display: flex;
+    flex-direction: row;
+    margin-top: -20px;
+}
+
+.DivDetailText{
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: start;
+    padding-bottom: 10px;
+    margin-right: 60px;
+}
+
+.sercal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 42px;
+    width: 43px;
+    border-radius: 30px;
+    border-width: 4px;
+    border-style: solid;
+    border-color: rgb(250, 252, 250);
+    background-color: rgb(92, 223, 140);
+    z-index: 2;
+}
+
+.mixingsercal{
+    margin-left: -20px;
+    z-index: 1;
+}
+
+.DetailText{
+    line-height: 34px;
+    vertical-align: middle;
+    color: #3c3c3c;
+    font-size: 28px;
+    font-family: 'Ysabeau SC', Arial, sans-serif;
+    font-weight: 400;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+}
+
+.ImageDetail{
+    width: 97px;
+    height: 97px;
+}
+
+.DivBottomDescription{
+    display: flex;
+    flex-direction: row;
+}
+
+.ColumnBottomDescription{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.DivBottomDescriptionText{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+}
+
+.ImageArrow{
+    width: 15px;
+    height: 15px;
+}
+
+.BottomDescriptionText{
+    margin: 0px;
+    margin-left: 10px;
+    width: 245px;
+    line-height: 25px;
+    vertical-align: middle;
+    color: #3c3c3c;
+    font-size: 18px;
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-weight: 400;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+}
+
+.ImageBoxTwo{
+    width: 260px;
+    height: 196px;
+}
