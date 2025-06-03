@@ -5,6 +5,7 @@ import Main from "../Pages/Main/Main";
 import Signup from "../Pages/Signup/Signup";
 import AccountPage from "../Pages/LK/AccountPage";
 import PageOrder from "../Pages/LK/PageOrder/PageOrder";
+import PageOrderDitail from "../Pages/LK/PageOrderDitail/PageOrderDitail";
 
 const Router = () => {
     return(
@@ -15,11 +16,9 @@ const Router = () => {
                     <Route path="/lotusclient/Signup" element={<Signup/>}/>
                     <Route path="/lotusclient/PersonalAccount/:id" element={<AccountPage/>}>
                         <Route path="/lotusclient/PersonalAccount/:id" element={<PageOrder/>}/>
-                        <Route path="/lotusclient/PersonalAccount/:id/Order/:idOrder" />
+                        <Route path="/lotusclient/PersonalAccount/:id/Order/:idOrder" element={<PageOrderDitail/>}/>
                         <Route path="/lotusclient/PersonalAccount/:id/Documents" />
                     </Route>
-                    <Route path="/lotusclient/:id/orders" />
-                    <Route path="/lotusclient/:id/document"/>
                 </Route>
             </Routes>
         </BrowserRouter>

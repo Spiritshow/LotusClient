@@ -1,0 +1,33 @@
+.CardHeaderPosition{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    background-color: #ffffff;
+    color: rgb(68, 68, 68);
+    border-radius: 24px;
+    border-color: rgb(136, 136, 136);
+    border-style: ridge;
+    padding: 14px;
+    padding-left: 45px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.253);
+    width: 760px;
+}
+
+.DivId{
+    width: 155px;
+}
+
+.DivNameProd{
+    margin-left: 10px;
+    width: 380px;
+}
+
+.DivCount{
+    margin-left: 80px;
+    width: 100px;
+}
+
+.DivPrice{
+    width: 100px;
+}

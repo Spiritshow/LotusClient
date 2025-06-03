@@ -1,0 +1,104 @@
+.DivStatusList{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.LeftEdgeFirst{
+    width: 70px; 
+    height: 70px;
+    margin-right: -35px;
+    border-radius: 50%;
+}
+
+.LeftEdge{
+    width: 165px; 
+    height: 70px;
+    text-align: center;
+}
+
+.LeftEdgeEndNotCom{
+    border-left: 70px solid #D9D9D9;
+}
+
+.LeftEdgeEndCom{
+    border-left: 70px solid greenyellow;
+}
+
+.LeftEdgeEnd{
+    width: 0; 
+    height: 0;
+    border-top: 35px solid transparent;
+
+    border-bottom: 35px solid transparent;
+    margin-right: -60px;
+    z-index: 3;
+}
+
+.CenterFirst{
+    width: 0; 
+    height: 0;
+    margin-right: -69px;
+    border-top: 35px solid transparent;
+    border-left: 70px solid #ffffff;
+    border-bottom: 35px solid transparent;
+    z-index: 2;
+}
+
+.Center{
+    height: 70px;
+    text-align: center;
+    padding-left: 70px;
+    z-index: 1;
+}
+
+.CenterEndNotCom{
+    border-left: 70px solid #D9D9D9;
+}
+
+.CenterEndCom{
+    border-left: 70px solid greenyellow;
+}
+
+.CenterEnd{
+    width: 0; 
+    height: 0;
+    border-top: 35px solid transparent;
+    border-bottom: 35px solid transparent;
+    margin-right: -60px;
+    z-index: 3;
+}
+
+.RightEdgeFirst{
+    width: 0; 
+    height: 0;
+    margin-right: -69px;
+    border-top: 35px solid transparent;
+    border-left: 70px solid #ffffff;
+    border-bottom: 35px solid transparent;
+    z-index: 2;
+}
+
+.RightEdge{
+    height: 70px;
+    text-align: center;
+    padding-left: 70px;
+    z-index: 1;
+}
+
+.RightEdgeEnd{
+    width: 70px; 
+    height: 70px;
+    margin-left: -35px;
+    border-radius: 50%;
+}
+
+.Completed{
+    background-color: greenyellow;
+}
+
+.NotCompleted{
+    background-color: #D9D9D9;
+}

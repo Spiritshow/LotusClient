@@ -1,0 +1,37 @@
+.CardOrderPosition{
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    align-items: center;
+    width: 720px;
+    height: 25px;
+    background-color: #5cde8c;
+    color: #FFFFFF;
+    border-radius: 24px;
+    border-color: #5cde8c;
+    border-style: ridge;
+    padding: 14px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.253);
+    margin-top: 7px;
+    
+}
+
+.row{
+    text-align: center;
+    margin: 0px;
+}
+
+.DivNameProd{
+    margin-left: 10px;
+    width: 380px;
+}
+
+.DivCount{
+    margin-left: 80px;
+    width: 100px;
+}
+
+.DivPrice{
+    width: 100px;
+}
+

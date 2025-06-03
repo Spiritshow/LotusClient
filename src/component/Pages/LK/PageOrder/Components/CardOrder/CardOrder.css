@@ -67,3 +67,16 @@
     font-size: 18px;
     font-family: 'Ysabeau SC', Arial, sans-serif;
 }
+
+.DivDeleteOrder{
+    margin-left: 20px;
+}
+
+.ButtonDeleteOrder{
+    
+}
+
+.imgDelete{
+    height: 40px;
+    width: auto;
+}

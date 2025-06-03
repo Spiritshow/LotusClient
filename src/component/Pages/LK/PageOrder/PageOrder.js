@@ -11,6 +11,11 @@ const PageOrder = () => {
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
     const idClient = localStorage.getItem("idClient");
+    const [update , setUpdate] = useState(false);
+
+    const handleUpdate = () => {
+      setUpdate(!update);
+    }
 
     useEffect(() => {
         fetch(`http://localhost:3000/OrdersClient/${idClient}`,{
@@ -35,7 +40,7 @@ const PageOrder = () => {
         setError(err.message);
         setLoading(false);
       });
-    }, [])
+    }, [update])
 
     const togglerCreateOrder = () => {
         setToggleCreateOrder(!toggleCreateOrder);
@@ -43,7 +48,7 @@ const PageOrder = () => {
 
     const listOrders = (orders) => {
       return orders.map((order) => (
-            <CardOrder prop={order}/>
+            <CardOrder prop={{prop: order, update: handleUpdate}}/>
         ))
     }
 
